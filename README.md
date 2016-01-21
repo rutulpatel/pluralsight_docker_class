@@ -1,11 +1,11 @@
-This is a follow along exercise of docker class from www.pluralsight.com. The name of this class is "Integrating Docker with DevOps Automation Workflow"
+# Test app for Pluralsight course
 
-The sample application that i am using for this class has been downloaded from the course material. 
-The automation workflow makes use of following softwares in sequence:
-- sample_app development on local computer
-- pushed to github repo
-- builds code using circleci
-- builds docker image using tutum
-- pushes docker image to aws to start a docker container.
+This is a quick and dirty test node.js app cobbled together for the purposes of demonstrating a basic CI/CD workflow with Docker Hub for a Pluralsight video training course..
 
-Feel free to contact me at rutul-patel@live.com if you have any queries or suggestions. Thanks!
+## Instructions for use
+
+All of the files included in the .zip file (available to Plus subscribers) should be unzipped into a new directory.
+
+Initializing a Git repo and making a remote of it on GitHub are explained in Module 2 of the course.
+
+The viewer should have Git installed and have a GitHub account.
